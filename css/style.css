@@ -1,0 +1,145 @@
+.body{
+    width: 960px;
+    margin: 0 auto;
+}
+header{
+    background-color: orange;
+}
+img.cangiua {display: block; margin-left: auto; margin-right: auto;}
+
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+}
+.menu>ul>li>a{
+    display: block;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: larger;
+    color: black;
+    font-weight: bold;
+    padding: 0 10px;
+    line-height: 40px;
+}
+.menu>ul>li>a:hover{
+    color: yellow;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+}
+.menu ul ul a{
+    display: block;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu ul ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+.menu ul ul a{
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+    text-align: left;
+}
+.menu ul ul a:hover{
+    background-color: orangered;
+    color: white;
+}
+article .mini>img{
+    height: 100px;
+    width: 100px;
+}
+.mini{
+    float: left;
+    width: 9%;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+.mini>img:hover{
+    box-shadow: 0 0 20px blueviolet;
+    background-color: aqua;
+}
+.tieude{
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+
+.column{
+    width: 25%;
+    float: left;
+}
+.san-pham{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    background-color: #FFD700;
+}
+.san-pham .ten{
+    font-size: larger;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: blue;
+}
+.san-pham img{
+    max-width: 95%;
+}
+.san-pham .gia{
+    color: red;
+    font-weight: bold;
+    font-size: larger;
+}
+.san-pham .gia del{
+    color: gray;
+}
+.san-pham>img:active{
+    color: yellow;
+}
+.san-pham>img:hover{
+    box-shadow: 0 0 20px blueviolet;
+    background-color: silver;
+}
+h1{
+    font-size: 30px;
+}
+.footer-body-item{
+    float: left;
+    width: 50%;
+    background-color: orange;
+    font-size: 18px;
+}
+.footer-body-item a{
+    color: black;
+    text-decoration: none;
+}
+.footer-body-item a:hover{
+    box-shadow: 0 0 20px blueviolet;
+    background-color: white;
+    text-decoration: underline;
+}
